@@ -9,6 +9,7 @@
 		"Pretty JSON",
 		"Pretty YAML",
 		"rainbow_csv",
+		"Terraform",
 	],
 	"in_process_packages":
 	[
