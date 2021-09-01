@@ -9,7 +9,9 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"ignored_packages": [],
+	"ignored_packages": [
+		"Markdown",
+	],
 	"show_encoding": true,
 	"spell_check": true,
 	"translate_tabs_to_spaces": true,
