@@ -1,0 +1,19 @@
+[
+    {
+        "caption": ":%s - Substitute",
+        "command": "show_panel",
+        "args": {"panel": "replace"}
+    },
+    {
+        "caption": ":bd - Buffer Delete (close file)",
+        "command": "close"
+    },
+    {
+        "caption": ":wq - Write and Quit (close) file",
+        "command": "vi_save_and_exit"
+    },
+    {
+        "caption": ":e - Edit file",
+        "command": "prompt_open_file"
+    }
+]

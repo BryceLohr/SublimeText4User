@@ -1,0 +1,26 @@
+[
+    { "keys": ["Y"], "command": "set_action_motion", "args": {
+        "action": "vi_copy",
+        "motion": "vi_move_to_hard_eol",
+        "motion_args": {"repeat": 1, "extend": true},
+        "motion_inclusive": true },
+        "context": [{"key": "setting.command_mode"}]
+    },
+    { "keys": ["Z", "Z"], "command": "vi_save_and_exit",
+        "context": [{"key": "setting.command_mode"}]
+    },
+    // These two override the default bindings for moving the cursor in subwords
+    { "keys": ["alt+left"], "command": "jump_back" },
+    { "keys": ["alt+right"], "command": "jump_forward" },
+    // Overrides the default binding for Goto Symbol. Of the vintage_ctrl_keys, I only use ctrl-y, want the default bindings for the rest.
+    { "keys": ["ctrl+r"], "command": "redo_or_repeat",
+        "context": [{"key": "setting.command_mode"}]
+    },
+    // In Vim, g* does a partial-word version of *. This, instead, does a quick find all
+    { "keys": ["g", "*"], "command": "find_all_under" },
+    // TODO: continue using Wrap Plus for this?
+    { "keys": ["g", "q"], "command": "wrap_lines",
+        "context": [{"key": "setting.command_mode"}]
+    },
+    { "keys": ["g", "d"], "command": "goto_definition" }
+]
