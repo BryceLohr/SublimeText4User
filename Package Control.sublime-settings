@@ -7,6 +7,7 @@
 		"Package Control",
 		"Pretty JSON",
 		"Pretty YAML",
+		"rainbow_csv",
 	],
 	"in_process_packages":
 	[
