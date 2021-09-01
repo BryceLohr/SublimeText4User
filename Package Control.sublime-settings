@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"installed_packages":
 	[
+		"Dockerfile Syntax Highlighting",
 		"MarkdownEditing",
 		"MarkdownPreview",
 		"Package Control",
