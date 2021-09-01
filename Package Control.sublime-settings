@@ -5,6 +5,8 @@
 		"MarkdownEditing",
 		"MarkdownPreview",
 		"Package Control",
+		"Pretty JSON",
+		"Pretty YAML",
 	],
 	"in_process_packages":
 	[
