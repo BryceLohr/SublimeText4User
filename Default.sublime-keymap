@@ -6,9 +6,6 @@
         "motion_inclusive": true },
         "context": [{"key": "setting.command_mode"}]
     },
-    { "keys": ["Z", "Z"], "command": "vi_save_and_exit",
-        "context": [{"key": "setting.command_mode"}]
-    },
     // These two override the default bindings for moving the cursor in subwords
     { "keys": ["alt+left"], "command": "jump_back" },
     { "keys": ["alt+right"], "command": "jump_forward" },
