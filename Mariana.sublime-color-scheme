@@ -5,7 +5,8 @@
     },
     "globals":
     {
-        "block_caret": "var(white)"
+        "block_caret": "var(white)",
+        "block_caret_border": "var(white)"
     },
     "rules":
     [
